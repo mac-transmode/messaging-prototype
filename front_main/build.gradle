@@ -1,0 +1,4 @@
+apply from: "${rootDir}/gradle/server.gradle"
+
+applicationName = 'front'
+mainClassName = 'se.ystrom.push.front.main.FrontMain'
