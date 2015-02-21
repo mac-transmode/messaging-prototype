@@ -1,0 +1,8 @@
+apply from: "${rootDir}/gradle/java.gradle"
+// apply from: "${rootDir}/gradle/spock.gradle"
+
+dependencies {
+    compile project(":l1_rest_api")
+    compile('org.springframework.boot:spring-boot-starter-websocket:1.2.1.RELEASE')
+    compile('org.springframework:spring-messaging:1.2.1.RELEASE')
+}
