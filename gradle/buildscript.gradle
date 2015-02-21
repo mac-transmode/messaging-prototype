@@ -1,0 +1,12 @@
+buildscript {
+ repositories {
+jcenter()
+    }
+    dependencies {
+    // spring-boot
+    classpath 'org.springframework.boot:spring-boot-gradle-plugin:1.2.1.RELEASE'
+
+    // com.moowork.node
+    classpath "com.moowork.gradle:gradle-node-plugin:0.8"
+}
+}
