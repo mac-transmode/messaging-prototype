@@ -1,0 +1,6 @@
+task wrapper(type: Wrapper) {
+    description 'Generate gradle wrapper'
+    group 'Gradle'
+
+    gradleVersion = '2.2'
+}
