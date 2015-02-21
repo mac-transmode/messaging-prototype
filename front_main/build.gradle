@@ -2,3 +2,8 @@ apply from: "${rootDir}/gradle/server.gradle"
 
 applicationName = 'front'
 mainClassName = 'se.ystrom.push.front.main.FrontMain'
+
+dependencies {
+    compile 'org.springframework.boot:spring-boot-starter-web:1.2.1.RELEASE'
+    testCompile("org.springframework.boot:spring-boot-starter-test")
+}
