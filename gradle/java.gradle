@@ -2,6 +2,7 @@ apply plugin: 'java'
 
 repositories {
     maven { url "http://repo.spring.io/release" }
+    maven { url 'http://dl.bintray.com/ystromm/maven' }
     jcenter()
 }
 
