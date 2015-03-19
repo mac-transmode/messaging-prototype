@@ -1,11 +1,11 @@
 apply from: "${rootDir}/gradle/server.gradle"
 
 applicationName = 'front'
-mainClassName = 'se.ystrom.push.front.main.FrontMain'
+mainClassName = 'com.github.ystrom.discovery.front.main.FrontMain'
 
 dependencies {
     compile 'org.springframework.boot:spring-boot-starter-web:1.2.1.RELEASE'
-    runtime 'com.github.ystromm:springboot-webjars:0.0.1'
+    compile 'com.github.ystromm:springboot-webjars:0.0.3-SNAPSHOT'
     runtime 'org.webjars:angularjs:1.3.14'
     runtime 'org.webjars:bootstrap:3.3.4'
     testCompile("org.springframework.boot:spring-boot-starter-test")
