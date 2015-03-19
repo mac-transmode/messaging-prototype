@@ -1,7 +1,7 @@
 apply from: "${rootDir}/gradle/server.gradle"
 
 applicationName = 'front'
-mainClassName = 'com.github.ystrom.discovery.front.main.FrontMain'
+mainClassName = 'com.github.ystromm.discovery.front.main.FrontMain'
 
 dependencies {
     compile 'org.springframework.boot:spring-boot-starter-web:1.2.1.RELEASE'

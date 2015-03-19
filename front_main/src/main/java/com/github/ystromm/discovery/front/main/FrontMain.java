@@ -1,4 +1,4 @@
-package com.github.ystrom.discovery.front.main;
+package com.github.ystromm.discovery.front.main;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
