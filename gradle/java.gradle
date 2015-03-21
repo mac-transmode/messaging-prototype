@@ -1,10 +1,9 @@
+//plugins {
+//    id 'net.saliman.cobertura' version '2.2.7'
+//    id 'com.github.kt3k.coveralls' version '2.3.1'
+//}
+
 apply plugin: 'java'
-
-plugins {
-    id 'net.saliman.cobertura' version '2.2.7'
-    id 'com.github.kt3k.coveralls' version '2.3.1'
-}
-
 
 repositories {
     maven { url "http://repo.spring.io/release" }
@@ -21,5 +20,5 @@ dependencies {
     testCompile 'com.google.guava:guava-testlib:18.0'
 }
 
-cobertura.coverageFormats = ['html', 'xml']
+//cobertura.coverageFormats = ['html', 'xml']
 
