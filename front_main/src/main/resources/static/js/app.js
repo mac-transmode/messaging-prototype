@@ -13,7 +13,10 @@ angular.module('networkMap', [ 'uiGmapgoogle-maps' ]).controller(
 					latitude : 59.30601,
 					longitude : 18.029238
 				},
-				icon : "/server11.png"
+				options: { 
+					draggable: true,
+					icon : "server11.png"
+			    },
 			};
 			$scope.options = {
 				scrollwheel : false
