@@ -4,6 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
+
+import se.transmode.tnm.map.rest.impl.NodeController;
+
 import com.github.ystromm.springboot.webjars.WebjarVersionFilter;
 
 /**
@@ -11,7 +14,7 @@ import com.github.ystromm.springboot.webjars.WebjarVersionFilter;
  * the rest resources and websockets.
  */
 @SpringBootApplication
-@ComponentScan(basePackageClasses={WebjarVersionFilter.class})
+@ComponentScan(basePackageClasses={WebjarVersionFilter.class, NodeController.class})
 public class FrontMain {
 
     // Need to be visible for Spring
