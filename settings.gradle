@@ -1,6 +1,7 @@
 include ":front_main"
 include ":l1_rest_api"
 include ":l1_rest_impl"
+include ":map_rest_impl"
 
 //include ”:node_webui”
 //include ”:node_rest”
