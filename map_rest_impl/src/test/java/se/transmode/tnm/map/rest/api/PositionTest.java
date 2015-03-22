@@ -12,9 +12,9 @@ import org.junit.Test;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class PositionTest {
-    
+
     private static final String STOCKHOLM_JSON = "{\"latitude\":59.1,\"longitude\":18.0}";
-    private final Position STOCKHOLM = Position.position().latitude(59.1).longitude(18.0).build();
+    static final Position STOCKHOLM = Position.position().latitude(59.1).longitude(18.0).build();
 
     @Test
     public void asJson_should_return_json() throws IOException {
